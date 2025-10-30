@@ -5,7 +5,8 @@ import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { axiosInstance } from "../lib/axios";
 import { signup } from "../lib/api";
 
-import useSignUp from "../hooks/useSignUp";
+import useSignUp from "../hooks/useSignup";
+
 
 
 const SignUpPage = () => {
